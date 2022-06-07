@@ -1,4 +1,4 @@
-const { io } = require("io");
+// const { io } = require("io");
 
 const BG_COLOUR = "#231f20";
 const SNAKE_COLOUR = "#c2c2c2";
