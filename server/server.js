@@ -1,9 +1,14 @@
 const { initGame, gameLoop, getUpdatedVelocity } = require("./game");
 const { makeid } = require("./utils");
 const { FRAME_RATE } = require("./constants");
-const io = require("socket.io")(3000, {
+
+const io = require("socket.io")(process.env.PORT || 3000, {
 	cors: {
-		origin: ["http://localhost:8080", "http://127.0.0.1:8080"],
+		origin: [
+			"http://localhost:8080",
+			"http://127.0.0.1:8080",
+			"https://guileless-stardust-995016.netlify.app/",
+		],
 	},
 });
 
