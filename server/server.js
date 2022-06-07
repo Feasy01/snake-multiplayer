@@ -7,6 +7,7 @@ const io = require("socket.io")(process.env.PORT || 3000, {
 		origin: [
 			"http://localhost:8080",
 			"http://127.0.0.1:8080",
+			"https://guileless-stardust-995016.netlify.app",
 			"https://guileless-stardust-995016.netlify.app/",
 		],
 	},
