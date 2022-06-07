@@ -1,4 +1,4 @@
-import { io } from "../node_modules/socket.io-client";
+import { io } from "socket.io-client";
 
 const BG_COLOUR = "#231f20";
 const SNAKE_COLOUR = "#c2c2c2";
